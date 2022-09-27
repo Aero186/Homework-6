@@ -65,6 +65,8 @@ else if ((userPick == 'L') && (computerPick == 'L'))
   cout << "It is a tie." << endl;
 else if ((userPick == 'K') && (computerPick == 'K'))
   cout << "It is a tie." << endl;
+else if ((userPick == 'R') && (computerPick == 'P'))
+  cout << "It is a tie." << endl;
   
 else 
   cout << "Not yet accounted for" << endl;
