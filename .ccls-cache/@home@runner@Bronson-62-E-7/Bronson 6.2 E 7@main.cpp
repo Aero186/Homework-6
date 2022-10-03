@@ -4,20 +4,23 @@
 #include <iostream>
 using namespace std;
 
-double powerGen (double H, double Q);
+    
 
 int main() 
 {
-  
-  double H, Q, P, p, g;
-  
+  double P, p, g;
   g = 9.81;
   p = 1000;
 
+}
+ double powerGen (double H, double Q)
   cin >> H;
   cin >> Q;
-
-  P = p * Q * H * g;
   
-  cout << powerGen << endl;
+
+
+  P = p * H * Q * g ;
+  
+  cout<< P << endl;
+  
 }
