@@ -29,4 +29,4 @@ double powerGen (double H, double Q)
   return power;
 }
   
-// The function is looking for two doubles, H and Q
+// The function is looking for two doubles, H and Q. H and Q are input in the main() function, and then grabed for the powerGen() function. powerGen then uses those two variable to evaluate power, which was defined as equal to P in the main() function.
